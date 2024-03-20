@@ -1,5 +1,3 @@
-#### ICPO #####
-
 import openpyxl
 import win32com.client
 import os
