@@ -70,7 +70,7 @@ def conexao_SAP():
         linha_atual += 1
         print(nova_celula.value)
     # Salvar:
-    pasta_trabalho.save('C:\\Users\\Wally\\Desktop\\vba\\Aut_Saldos.xlsx')
+    pasta_trabalho.save('python_automacao_sap_saldos.xlsx')
 
     print("Realizado com Sucesso!")
     messagebox.showinfo("Qualidade ICPO","Extração realizada!")
