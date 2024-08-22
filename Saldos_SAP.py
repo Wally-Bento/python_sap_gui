@@ -46,7 +46,7 @@ def conexao_SAP():
     for linhas in pl_saldos.iter_rows(min_row=linha_atual):
 
         if linha_atual > 1:
-            # Inserir a ordem
+            # Inserir a ordem do projeto
             session.findById("wnd[0]/usr/ctxt_6ORDGRP-LOW").Text = pl_saldos.cell(row=linha_atual, column=1).value
             #Confirmar
             session.findById("wnd[0]").sendVKey(8)
