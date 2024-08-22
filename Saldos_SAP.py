@@ -10,7 +10,7 @@ def usuario_maquina():
     username_parts = full_username.split(" ")
     return username_parts[0] if len(username_parts) > 1 else username_parts[0]
 
-#Definindo a Variável
+#Definindo a Variável (usúario local)
 username = usuario_maquina()
 
 # #Conexão SAP
